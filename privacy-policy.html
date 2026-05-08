@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>プライバシーポリシー | 乗り鉄GO</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-size: 16px;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN",
+                   "Yu Gothic", YuGothic, "Noto Sans JP", system-ui, sans-serif;
+      font-size: 1rem;
+      line-height: 1.8;
+      color: #1a1a1a;
+      background-color: #f9f9f9;
+      padding: 24px 16px 64px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 40px 48px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    }
+
+    /* ── ヘッダー ── */
+    .page-header {
+      border-bottom: 2px solid #e0e0e0;
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+
+    .app-name {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #555;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+
+    .page-title {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: #111;
+      margin-bottom: 20px;
+    }
+
+    .meta-box {
+      background: #f4f4f6;
+      border-radius: 8px;
+      padding: 16px 20px;
+      font-size: 0.875rem;
+      color: #444;
+      line-height: 2;
+    }
+
+    .meta-box dt {
+      display: inline;
+      font-weight: 600;
+      color: #111;
+    }
+
+    .meta-box dd {
+      display: inline;
+      margin-left: 4px;
+    }
+
+    .meta-box .meta-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .meta-row + .meta-row {
+      margin-top: 2px;
+    }
+
+    /* ── セクション ── */
+    .section {
+      margin-top: 40px;
+    }
+
+    h2 {
+      font-size: 1.125rem;
+      font-weight: 700;
+      color: #111;
+      border-left: 4px solid #3a7bd5;
+      padding-left: 12px;
+      margin-bottom: 16px;
+      line-height: 1.5;
+    }
+
+    h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #222;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 12px;
+      color: #333;
+    }
+
+    ul, ol {
+      padding-left: 1.5em;
+      margin-bottom: 12px;
+      color: #333;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    li + li {
+      margin-top: 4px;
+    }
+
+    /* ── 表 ── */
+    .table-wrapper {
+      overflow-x: auto;
+      margin: 16px 0;
+      border-radius: 8px;
+      border: 1px solid #e0e0e0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+      min-width: 400px;
+    }
+
+    thead tr {
+      background-color: #f0f4fa;
+    }
+
+    th {
+      padding: 10px 14px;
+      text-align: left;
+      font-weight: 600;
+      color: #333;
+      border-bottom: 1px solid #d0d7e3;
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 10px 14px;
+      border-bottom: 1px solid #ebebeb;
+      color: #444;
+      vertical-align: top;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    tr:nth-child(even) td {
+      background-color: #fafafa;
+    }
+
+    /* ── リンク ── */
+    a {
+      color: #3a7bd5;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* ── 注記ボックス ── */
+    .note-box {
+      background: #fffbeb;
+      border: 1px solid #f5d76e;
+      border-radius: 8px;
+      padding: 14px 18px;
+      font-size: 0.875rem;
+      color: #555;
+      margin: 16px 0;
+      line-height: 1.7;
+    }
+
+    /* ── フッター ── */
+    .page-footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid #e0e0e0;
+      font-size: 0.825rem;
+      color: #888;
+      text-align: center;
+    }
+
+    /* ── レスポンシブ ── */
+    @media (max-width: 600px) {
+      .container {
+        padding: 24px 20px;
+        border-radius: 8px;
+      }
+
+      .page-title {
+        font-size: 1.4rem;
+      }
+
+      h2 {
+        font-size: 1.05rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- ヘッダー -->
+    <header class="page-header">
+      <p class="app-name">乗り鉄GO</p>
+      <h1 class="page-title">プライバシーポリシー</h1>
+      <dl class="meta-box">
+        <div class="meta-row">
+          <dt>制定日：</dt><dd>2026年＿＿月＿＿日</dd>
+        </div>
+        <div class="meta-row">
+          <dt>最終改定日：</dt><dd>2026年＿＿月＿＿日</dd>
+        </div>
+        <div class="meta-row">
+          <dt>事業者名：</dt><dd>＿＿＿＿＿＿＿＿＿＿</dd>
+        </div>
+        <div class="meta-row">
+          <dt>お問い合わせ先：</dt><dd>＿＿＿＿＿＿＿＿＿＿</dd>
+        </div>
+      </dl>
+    </header>
+
+    <!-- 第1条 -->
+    <section class="section">
+      <h2>第1条　はじめに</h2>
+      <p>「乗り鉄GO」（以下「本アプリ」）は、鉄道駅・路線の訪問記録、写真投稿、路線制覇率の管理を楽しむためのアプリケーションです。本アプリを運営する＿＿＿＿（以下「当方」）は、ユーザーの個人情報を適切に保護することを重要な責務と考え、以下のとおりプライバシーポリシー（以下「本ポリシー」）を定めます。</p>
+      <p>本アプリをご利用になる前に、本ポリシーをよくお読みください。本アプリをご利用いただくことで、本ポリシーの内容をご確認いただいたものとして取り扱います。本ポリシーの内容に同意いただけない場合は、本アプリのご利用をお控えください。</p>
+    </section>
+
+    <!-- 第2条 -->
+    <section class="section">
+      <h2>第2条　収集する情報</h2>
+      <p>本アプリは、サービス提供のために以下の情報を収集・保存します。</p>
+
+      <h3>2-1. アカウント情報</h3>
+      <ul>
+        <li>Firebase Authentication が発行するユーザーID（UID）</li>
+        <li>認証プロバイダ情報（Sign in with Apple を使用する場合のApple IDに関する認証情報）</li>
+        <li>メールアドレス（Sign in with Apple を利用する場合、ユーザーの設定によってはAppleのリレーアドレスが取得されます。メールアドレスが取得されない場合もあります）</li>
+        <li>アカウント作成日時・最終更新日時</li>
+      </ul>
+
+      <h3>2-2. プロフィール情報</h3>
+      <ul>
+        <li>表示名（ユーザーが任意で設定・変更するもの）</li>
+      </ul>
+
+      <h3>2-3. 利用データ</h3>
+      <ul>
+        <li>訪問した駅のID・駅名・路線名</li>
+        <li>訪問日時</li>
+        <li>訪問メモ（任意入力）</li>
+        <li>訪問回数・初回訪問日・最終訪問日</li>
+      </ul>
+
+      <h3>2-4. 投稿・コンテンツデータ</h3>
+      <ul>
+        <li>ユーザーが投稿した写真（Firebase Storage に保存）</li>
+        <li>投稿に紐づく駅名・路線名・投稿種別・メモ（任意）</li>
+        <li>投稿の作成日時・ステータス</li>
+      </ul>
+
+      <h3>2-5. ソーシャルデータ</h3>
+      <ul>
+        <li>いいね情報（対象投稿ID・いいねしたユーザーID・日時）</li>
+        <li>コメント本文・投稿日時・コメントしたユーザーID・表示名</li>
+      </ul>
+
+      <h3>2-6. 通報データ</h3>
+      <ul>
+        <li>通報対象の投稿ID・対象ユーザーID・通報理由・通報者UID・通報日時</li>
+      </ul>
+      <p>通報されたコンテンツは、不正利用防止・コミュニティの安全確保を目的として当方が確認・審査を行う場合があります。審査のため、通報に関連するコンテンツ（投稿・コメント等）を参照・保存することがあります。</p>
+
+      <h3>2-7. Firebaseが自動収集する情報</h3>
+      <p>本アプリはFirebase（Google LLC が提供するサービス）を利用しており、サービス提供・セキュリティ確保・不正利用防止の目的で、IPアドレス、デバイス識別子、ネットワーク状態などの情報がFirebaseによって自動的に収集される場合があります。これらの情報の収集・利用はGoogle LLCのプライバシーポリシーに従います。</p>
+    </section>
+
+    <!-- 第3条 -->
+    <section class="section">
+      <h2>第3条　収集しない情報</h2>
+      <p>本アプリは、以下の情報を収集しません。</p>
+      <ul>
+        <li>位置情報・GPS情報</li>
+        <li>連絡先・電話帳情報</li>
+        <li>決済情報・クレジットカード番号</li>
+        <li>ヘルスケア・医療情報</li>
+        <li>広告識別子（IDFA等）</li>
+        <li>マイクへのアクセス（本アプリはマイクを使用しません）</li>
+        <li>カメラの直接起動（写真投稿時はフォトライブラリからの選択のみ行います。カメラの直接起動は行いません）</li>
+      </ul>
+    </section>
+
+    <!-- 第4条 -->
+    <section class="section">
+      <h2>第4条　情報の利用目的</h2>
+      <p>収集した情報は、以下の目的のためにのみ利用します。</p>
+      <ol>
+        <li>本アプリのサービス提供（訪問記録の管理、投稿機能、いいね・コメント機能など）</li>
+        <li>ユーザーアカウントの識別・認証</li>
+        <li>不正利用の検出・防止およびサービスの安全性確保</li>
+        <li>通報に基づくコンテンツの審査・対応およびコミュニティの健全性維持</li>
+        <li>サービスの改善・品質向上</li>
+        <li>法令上の義務の履行</li>
+      </ol>
+    </section>
+
+    <!-- 第5条 -->
+    <section class="section">
+      <h2>第5条　第三者提供</h2>
+      <p>当方は、以下の場合を除き、収集した情報を第三者に提供しません。</p>
+      <ol>
+        <li>ユーザー本人の同意がある場合</li>
+        <li>法令に基づく場合（捜査機関からの適法な要請など）</li>
+        <li>人の生命・身体・財産の保護のために必要であり、本人の同意を得ることが困難な場合</li>
+      </ol>
+
+      <h3>委託先（サービスプロバイダ）</h3>
+      <p>本アプリは、以下のサービスを利用しており、これらのサービスに必要な範囲でデータが処理されます。</p>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>サービス</th>
+              <th>提供元</th>
+              <th>用途</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Firebase Authentication</td>
+              <td>Google LLC</td>
+              <td>ユーザー認証</td>
+            </tr>
+            <tr>
+              <td>Cloud Firestore</td>
+              <td>Google LLC</td>
+              <td>データベース（訪問記録・投稿・コメント等）</td>
+            </tr>
+            <tr>
+              <td>Firebase Storage</td>
+              <td>Google LLC</td>
+              <td>写真ファイルの保存</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Google LLCのプライバシーポリシーは <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a> をご参照ください。</p>
+    </section>
+
+    <!-- 第6条 -->
+    <section class="section">
+      <h2>第6条　データの保存期間と削除</h2>
+
+      <h3>アカウント削除時</h3>
+      <p>ユーザーが本アプリの設定画面からアカウント削除を実行した場合、以下のデータの削除処理が行われます。</p>
+      <ul>
+        <li>ユーザーアカウント情報（表示名、作成日時等）</li>
+        <li>訪問記録（訪問した駅の記録、訪問日時、メモ）</li>
+        <li>自分が投稿した写真および投稿データ</li>
+        <li>認証アカウント（Firebase Authentication）</li>
+      </ul>
+      <div class="note-box">
+        システム上の処理タイミングや技術的な制約により、他のユーザーの投稿に紐づくいいね・コメントなど一部のデータは、削除処理に時間差が生じる場合があります。また、不正利用の防止、法令上の義務の履行、サービスの保全等の目的のために必要と判断される場合（通報データ等）は、アカウント削除後も一定期間データを保持することがあります。
+      </div>
+
+      <h3>アカウント削除後</h3>
+      <p>削除処理完了後は、同一アカウントでの再ログインはできません。</p>
+    </section>
+
+    <!-- 第7条 -->
+    <section class="section">
+      <h2>第7条　ユーザーの権利</h2>
+      <p>ユーザーは以下の操作をアプリ内から行うことができます。</p>
+      <ol>
+        <li><strong>アカウント削除</strong>：設定画面（マイページ → 設定 → 危険な操作 → アカウントを削除する）からいつでも実行できます</li>
+        <li><strong>表示名の変更</strong>：マイページの編集機能から変更できます</li>
+        <li><strong>投稿の削除</strong>：自分が投稿したコンテンツはアプリ内から削除できます</li>
+      </ol>
+      <p>その他、収集したデータに関するお問い合わせは、下記お問い合わせ先までご連絡ください。</p>
+    </section>
+
+    <!-- 第8条 -->
+    <section class="section">
+      <h2>第8条　セキュリティ</h2>
+      <p>当方は、収集した情報の漏洩・紛失・改ざんを防止するため、Firebaseが提供するセキュリティ機能（Firestore Security Rules、Firebase Storage Security Rules等）を活用し、適切な管理措置を講じます。ただし、インターネット上でのデータ送受信において完全なセキュリティを保証することはできません。</p>
+    </section>
+
+    <!-- 第9条 -->
+    <section class="section">
+      <h2>第9条　お子様のプライバシー</h2>
+      <p>本アプリは13歳未満のお子様を対象としていません。13歳未満の方が本アプリを使用されていることが判明した場合、速やかにアカウントを削除し、関連データを消去します。</p>
+    </section>
+
+    <!-- 第10条 -->
+    <section class="section">
+      <h2>第10条　本ポリシーの変更</h2>
+      <p>当方は、法令の変更やサービスの改善に伴い、本ポリシーを変更することがあります。重要な変更については、本アプリ内またはウェブサイト上でお知らせします。変更後も本アプリを継続してご利用になった場合、変更後のポリシーの内容をご確認いただいたものとして取り扱います。</p>
+    </section>
+
+    <!-- 第11条 -->
+    <section class="section">
+      <h2>第11条　お問い合わせ</h2>
+      <p>本ポリシーに関するお問い合わせは、下記までご連絡ください。</p>
+      <div class="meta-box">
+        <div class="meta-row">
+          <dt>事業者名：</dt><dd>＿＿＿＿＿＿＿＿＿＿</dd>
+        </div>
+        <div class="meta-row">
+          <dt>メールアドレス：</dt><dd>＿＿＿＿＿＿＿＿＿＿</dd>
+        </div>
+      </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="page-footer">
+      <p>© 2026 乗り鉄GO. All rights reserved.</p>
+    </footer>
+
+  </div>
+</body>
+</html>
