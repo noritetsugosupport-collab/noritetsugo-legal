@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>サポート | 乗り鉄GO</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-size: 16px;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN",
+                   "Yu Gothic", YuGothic, "Noto Sans JP", system-ui, sans-serif;
+      font-size: 1rem;
+      line-height: 1.8;
+      color: #1a1a1a;
+      background-color: #f9f9f9;
+      padding: 24px 16px 64px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 40px 48px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    }
+
+    /* ── ヘッダー ── */
+    .page-header {
+      border-bottom: 2px solid #e0e0e0;
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+
+    .app-name {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #555;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+
+    .page-title {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: #111;
+      margin-bottom: 12px;
+    }
+
+    .page-desc {
+      font-size: 0.95rem;
+      color: #555;
+      line-height: 1.7;
+    }
+
+    /* ── セクション ── */
+    .section {
+      margin-top: 40px;
+    }
+
+    h2 {
+      font-size: 1.125rem;
+      font-weight: 700;
+      color: #111;
+      border-left: 4px solid #3a7bd5;
+      padding-left: 12px;
+      margin-bottom: 16px;
+      line-height: 1.5;
+    }
+
+    p {
+      margin-bottom: 12px;
+      color: #333;
+    }
+
+    ul {
+      padding-left: 1.5em;
+      margin-bottom: 12px;
+      color: #333;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    li + li {
+      margin-top: 4px;
+    }
+
+    /* ── リンク ── */
+    a {
+      color: #3a7bd5;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* ── メールリンクボックス ── */
+    .contact-box {
+      background: #f0f4fa;
+      border: 1px solid #c8d8f0;
+      border-radius: 8px;
+      padding: 16px 20px;
+      font-size: 0.9rem;
+      color: #333;
+      margin: 16px 0;
+      line-height: 1.8;
+    }
+
+    .contact-box .mail-link {
+      font-size: 1rem;
+      font-weight: 600;
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    .contact-box .mail-note {
+      font-size: 0.85rem;
+      color: #666;
+    }
+
+    /* ── リンクリスト ── */
+    .link-list {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+
+    .link-list li {
+      border-bottom: 1px solid #f0f0f0;
+      margin-bottom: 0;
+    }
+
+    .link-list li:last-child {
+      border-bottom: none;
+    }
+
+    .link-list a {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px 4px;
+      color: #333;
+      font-size: 0.95rem;
+    }
+
+    .link-list a:hover {
+      color: #3a7bd5;
+      text-decoration: none;
+    }
+
+    .link-list a::after {
+      content: "›";
+      font-size: 1.2rem;
+      color: #aaa;
+      flex-shrink: 0;
+    }
+
+    /* ── 注記ボックス ── */
+    .note-box {
+      background: #fffbeb;
+      border: 1px solid #f5d76e;
+      border-radius: 8px;
+      padding: 14px 18px;
+      font-size: 0.875rem;
+      color: #555;
+      margin: 16px 0;
+      line-height: 1.7;
+    }
+
+    /* ── フッター ── */
+    .page-footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid #e0e0e0;
+      font-size: 0.825rem;
+      color: #888;
+      text-align: center;
+    }
+
+    /* ── レスポンシブ ── */
+    @media (max-width: 600px) {
+      .container {
+        padding: 24px 20px;
+        border-radius: 8px;
+      }
+
+      .page-title {
+        font-size: 1.4rem;
+      }
+
+      h2 {
+        font-size: 1.05rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- ヘッダー -->
+    <header class="page-header">
+      <p class="app-name">乗り鉄GO</p>
+      <h1 class="page-title">サポート</h1>
+      <p class="page-desc">乗り鉄GOに関するお問い合わせ、法的情報、コミュニティ運営に関する情報を掲載しています。</p>
+    </header>
+
+    <!-- お問い合わせ -->
+    <section class="section">
+      <h2>お問い合わせ</h2>
+      <p>アプリに関するご質問・ご要望・不具合報告は、以下のメールアドレスまでご連絡ください。</p>
+      <div class="contact-box">
+        <a class="mail-link" href="mailto:noritetsugo.support@gmail.com">noritetsugo.support@gmail.com</a>
+        <span class="mail-note">お問い合わせの際は、ご利用環境（iOSバージョン・機種）、発生した事象、可能であればスクリーンショットを添えてご連絡ください。</span>
+      </div>
+    </section>
+
+    <!-- 法的情報 -->
+    <section class="section">
+      <h2>法的情報</h2>
+      <ul class="link-list">
+        <li><a href="privacy-policy.html">プライバシーポリシー</a></li>
+        <li><a href="terms.html">利用規約</a></li>
+        <li><a href="community-guidelines.html">コミュニティガイドライン</a></li>
+        <li><a href="moderation-policy.html">通報・モデレーションポリシー</a></li>
+      </ul>
+    </section>
+
+    <!-- アカウント削除 -->
+    <section class="section">
+      <h2>アカウント削除について</h2>
+      <p>アカウントの削除は、アプリ内の設定画面から行うことができます。</p>
+      <p>設定画面の「危険な操作」→「アカウントを削除する」から実行してください。削除後は、Firebase Auth アカウント・ユーザー情報・本人の投稿写真・投稿データ・訪問記録が削除されます。</p>
+      <div class="note-box">
+        アカウント削除は取り消せません。削除後は同一アカウントでの再ログインができなくなります。
+      </div>
+    </section>
+
+    <!-- 安全な利用 -->
+    <section class="section">
+      <h2>安全な利用について</h2>
+      <p>本アプリをご利用の際は、鉄道・駅・沿線でのマナーと安全を最優先にしてください。</p>
+      <ul>
+        <li>線路内・立入禁止区域への立ち入りは絶対に行わないでください</li>
+        <li>危険な場所・姿勢での撮影は行わないでください</li>
+        <li>駅係員・乗務員・他の乗客・施設利用者への迷惑行為は禁止です</li>
+      </ul>
+      <p>詳細は<a href="community-guidelines.html">コミュニティガイドライン</a>をご確認ください。</p>
+    </section>
+
+    <!-- 課金について -->
+    <section class="section">
+      <h2>課金について</h2>
+      <p>現在、乗り鉄GOは完全無料でご利用いただけます。アプリ内課金・サブスクリプション・有料コンテンツの販売は行っていません。</p>
+      <!-- TODO: アプリ内課金・サブスクリプション・有料販売を導入する場合は、
+           特定商取引法に基づく表示ページ（tokushoho.html）の追加が必要です。
+           詳細は CLAUDE.md セクション 2.1 を参照してください。 -->
+    </section>
+
+    <!-- フッター -->
+    <footer class="page-footer">
+      <p>© 2026 乗り鉄GO. All rights reserved.</p>
+    </footer>
+
+  </div>
+</body>
+</html>
