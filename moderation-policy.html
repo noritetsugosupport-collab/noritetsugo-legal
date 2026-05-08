@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>通報・モデレーションポリシー | 乗り鉄GO</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-size: 16px;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN",
+                   "Yu Gothic", YuGothic, "Noto Sans JP", system-ui, sans-serif;
+      font-size: 1rem;
+      line-height: 1.8;
+      color: #1a1a1a;
+      background-color: #f9f9f9;
+      padding: 24px 16px 64px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 40px 48px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    }
+
+    .page-header {
+      border-bottom: 2px solid #e0e0e0;
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+
+    .app-name {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #555;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+
+    .page-title {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: #111;
+      margin-bottom: 20px;
+    }
+
+    .meta-box {
+      background: #f4f4f6;
+      border-radius: 8px;
+      padding: 16px 20px;
+      font-size: 0.875rem;
+      color: #444;
+      line-height: 2;
+    }
+
+    .meta-box dt {
+      display: inline;
+      font-weight: 600;
+      color: #111;
+    }
+
+    .meta-box dd {
+      display: inline;
+      margin-left: 4px;
+    }
+
+    .meta-box .meta-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .meta-row + .meta-row {
+      margin-top: 2px;
+    }
+
+    .section {
+      margin-top: 40px;
+    }
+
+    h2 {
+      font-size: 1.125rem;
+      font-weight: 700;
+      color: #111;
+      border-left: 4px solid #3a7bd5;
+      padding-left: 12px;
+      margin-bottom: 16px;
+      line-height: 1.5;
+    }
+
+    h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #222;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 12px;
+      color: #333;
+    }
+
+    ul, ol {
+      padding-left: 1.5em;
+      margin-bottom: 12px;
+      color: #333;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    li + li {
+      margin-top: 4px;
+    }
+
+    a {
+      color: #3a7bd5;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .note-box {
+      background: #fffbeb;
+      border: 1px solid #f5d76e;
+      border-radius: 8px;
+      padding: 14px 18px;
+      font-size: 0.875rem;
+      color: #555;
+      margin: 16px 0;
+      line-height: 1.7;
+    }
+
+    .page-footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid #e0e0e0;
+      font-size: 0.825rem;
+      color: #888;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 24px 20px;
+        border-radius: 8px;
+      }
+
+      .page-title {
+        font-size: 1.4rem;
+      }
+
+      h2 {
+        font-size: 1.05rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header class="page-header">
+      <p class="app-name">乗り鉄GO</p>
+      <h1 class="page-title">通報・モデレーションポリシー</h1>
+      <dl class="meta-box">
+        <div class="meta-row">
+          <dt>制定日：</dt><dd>2026年5月8日</dd>
+        </div>
+        <div class="meta-row">
+          <dt>最終改定日：</dt><dd>2026年5月8日</dd>
+        </div>
+        <div class="meta-row">
+          <dt>事業者名：</dt><dd>平山　亮</dd>
+        </div>
+        <div class="meta-row">
+          <dt>お問い合わせ先：</dt><dd><a href="mailto:noritetsugo.support@gmail.com">noritetsugo.support@gmail.com</a></dd>
+        </div>
+      </dl>
+    </header>
+
+    <!-- はじめに -->
+    <section class="section">
+      <h2>はじめに</h2>
+      <p>乗り鉄GOでは、すべてのユーザーが安心して利用できる環境を維持するため、ユーザーからの通報および当方によるコンテンツ審査・対応の方針を以下のとおり定めます。</p>
+    </section>
+
+    <!-- 1. 通報対象 -->
+    <section class="section">
+      <h2>第1条　通報対象</h2>
+      <p>以下に該当するコンテンツ・行為を通報の対象とします。</p>
+      <ul>
+        <li>差別的・攻撃的・ヘイトスピーチを含む投稿</li>
+        <li>性的・暴力的・グロテスクなコンテンツ</li>
+        <li>特定個人への嫌がらせ・誹謗中傷</li>
+        <li>他者の著作権・肖像権・プライバシーを侵害するコンテンツ</li>
+        <li>スパム・無断広告・勧誘目的の投稿</li>
+        <li>虚偽の訪問記録・ランキング操作</li>
+        <li>危険行為（線路内立入・危険撮影等）を誘発・助長するコンテンツ</li>
+        <li>犯罪行為を示唆・助長・教唆するコンテンツ</li>
+        <li>その他、<a href="https://noritetsugosupport-collab.github.io/noritetsugo-legal/community-guidelines.html">コミュニティガイドライン</a>または<a href="https://noritetsugosupport-collab.github.io/noritetsugo-legal/terms.html">利用規約</a>に違反するコンテンツ</li>
+      </ul>
+    </section>
+
+    <!-- 2. 通報方法 -->
+    <section class="section">
+      <h2>第2条　通報方法</h2>
+      <p>違反コンテンツは以下の方法で通報できます。</p>
+
+      <h3>アプリ内通報機能</h3>
+      <p>投稿の詳細画面から「通報する」を選択し、通報理由を選んでください。通報は匿名で行われます。</p>
+
+      <h3>メールによる通報</h3>
+      <p>アプリ内通報機能が利用できない場合、または詳細な情報を提供したい場合は、<a href="mailto:noritetsugo.support@gmail.com">noritetsugo.support@gmail.com</a> にご連絡ください。</p>
+      <p>メール通報の際は、可能な範囲で以下の情報をお知らせください。</p>
+      <ul>
+        <li>問題のある投稿のID・投稿日時（わかる場合）</li>
+        <li>違反の内容・理由</li>
+        <li>スクリーンショット等の証拠（任意）</li>
+      </ul>
+    </section>
+
+    <!-- 3. 運営による確認 -->
+    <section class="section">
+      <h2>第3条　運営による確認</h2>
+      <ol>
+        <li>通報を受けた場合、当方は合理的な期間内に内容を確認します。ただし、対応時間は通報件数・内容の複雑さ等によって異なり、即時対応を保証するものではありません。</li>
+        <li>審査にあたっては、通報内容・該当投稿・アカウントの履歴等を総合的に判断します。</li>
+        <li>通報者および通報対象者への個別の回答・通知は原則として行いません。</li>
+        <li>悪意のある虚偽通報が繰り返される場合、通報者のアカウントに対して制限措置を講じることがあります。</li>
+      </ol>
+    </section>
+
+    <!-- 4. 投稿の非表示・削除 -->
+    <section class="section">
+      <h2>第4条　投稿の非表示・削除</h2>
+      <ol>
+        <li>審査の結果、違反が確認された投稿は、当方の判断により非表示または削除します。</li>
+        <li>緊急性が高いと判断される場合（違法コンテンツ、切迫した危険を示すコンテンツ等）は、審査完了前に投稿を一時的に非表示とする場合があります。</li>
+        <li>削除された投稿の復元は原則として行いません。</li>
+        <li>削除措置について、当方は投稿者に対する補償義務を負いません。</li>
+      </ol>
+    </section>
+
+    <!-- 5. アカウント停止 -->
+    <section class="section">
+      <h2>第5条　アカウント停止</h2>
+      <ol>
+        <li>以下に該当するユーザーのアカウントを一時停止または永久停止する場合があります。
+          <ul>
+            <li>重大な利用規約・ガイドライン違反</li>
+            <li>繰り返し違反が確認されたユーザー</li>
+            <li>他のユーザーへの悪質な嫌がらせ・攻撃</li>
+            <li>虚偽通報の繰り返し</li>
+            <li>不正アクセス・システム攻撃等のセキュリティ上の脅威</li>
+          </ul>
+        </li>
+        <li>アカウント停止に際し、当方はユーザーへの補償・損害賠償義務を負いません。</li>
+        <li>停止措置について、当方は個別の回答・説明を行う義務を負いません。</li>
+      </ol>
+    </section>
+
+    <!-- 6. 緊急性の高い内容への対応 -->
+    <section class="section">
+      <h2>第6条　緊急性の高い内容への対応</h2>
+      <p>以下のような緊急性の高い内容については、優先的に対応します。</p>
+      <ul>
+        <li>生命・身体への危険を示唆するコンテンツ</li>
+        <li>児童の性的搾取（CSAM）に該当するコンテンツ</li>
+        <li>犯罪予告・テロ予告等</li>
+        <li>その他、即時対応が必要と当方が判断する内容</li>
+      </ul>
+      <div class="note-box">
+        生命・身体の安全に関わる緊急事態の場合は、本アプリへの通報に加え、警察（110番）や消防（119番）等の緊急機関に直接ご連絡ください。当方への通報は緊急機関の代替にはなりません。
+      </div>
+      <p>法令上の要請がある場合、または人の生命・身体の保護のために必要と判断される場合、当方は関係機関へ情報を提供することがあります。</p>
+    </section>
+
+    <!-- 7. 個別回答について -->
+    <section class="section">
+      <h2>第7条　通報者・対象者への個別回答</h2>
+      <p>当方は、通報者および通報対象者に対し、審査結果や措置内容について個別に回答・通知する義務を負いません。対応状況や措置内容についてのお問い合わせに回答できない場合があります。</p>
+      <p>これは、通報者・対象者双方のプライバシー保護および運営の安定性確保を目的とするものです。</p>
+    </section>
+
+    <!-- 8. お問い合わせ -->
+    <section class="section">
+      <h2>第8条　連絡先</h2>
+      <p>本ポリシーに関するお問い合わせ、または緊急を要しない通報は以下にご連絡ください。</p>
+      <div class="meta-box">
+        <div class="meta-row">
+          <dt>事業者名：</dt><dd>平山　亮</dd>
+        </div>
+        <div class="meta-row">
+          <dt>メールアドレス：</dt><dd><a href="mailto:noritetsugo.support@gmail.com">noritetsugo.support@gmail.com</a></dd>
+        </div>
+      </div>
+    </section>
+
+    <footer class="page-footer">
+      <p>© 2026 乗り鉄GO. All rights reserved.</p>
+    </footer>
+
+  </div>
+</body>
+</html>
